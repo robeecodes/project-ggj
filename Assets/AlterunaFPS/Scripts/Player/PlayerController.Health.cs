@@ -23,6 +23,10 @@ namespace AlterunaFPS
 			}
 		}
 
+		public Health GetHealth() {
+			return _health;
+		}
+
 		private void OnDeath(ushort senderID)
 		{
 			if (_possesed)
