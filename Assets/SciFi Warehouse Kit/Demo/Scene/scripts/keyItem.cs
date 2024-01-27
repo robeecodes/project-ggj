@@ -25,13 +25,11 @@ public class keyItem : MonoBehaviour
             GameVariables.keyCount ++;
             Destroy(gameObject);
             chime.Play();
-            Debug.Log("Key!");
         }
     }
 
     void Update()
     {
-        Debug.Log(GameVariables.keyCount);
         keyCounterDisplay.text = "Panties: " + GameVariables.keyCount ;
     }
 

@@ -7,6 +7,6 @@ public class DeathTrap : Trap, IKillsPlayer {
     }
 
     public void KillPlayer(PlayerController player) {
-        Player.GetHealth().TakeDamage(0, 10000);
+        Player.GetHealth().TakeDamage(0, 20f);
     }
 }
