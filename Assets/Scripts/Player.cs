@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using AlterunaFPS;
 using UnityEngine;
 
@@ -12,7 +9,9 @@ public class Player : MonoBehaviour {
     }
 
     private void HandleInteractions() {
+        // Player will search for collisions underfoot
         if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit raycastHit, .2f, defaultLayerMask)) {
+            // Enable trap effect if Player steps on a trap
             if (raycastHit.transform.TryGetComponent(out Trap trap)) {
                 if (!trap.GetIsActive()) {
                     trap.Effect(this.GetComponent<PlayerController>());

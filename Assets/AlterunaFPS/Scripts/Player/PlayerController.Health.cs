@@ -12,10 +12,6 @@ namespace AlterunaFPS
 		
 		private Health _health;
 		private int _lastSpawnIndex;
-
-		public Health GetHealth() {
-			return _health;
-		}
 		
 		private void InitializeHealth()
 		{
@@ -25,6 +21,10 @@ namespace AlterunaFPS
 				_health.OnDeath.AddListener(OnDeath);
 				_health.HealthPoints = MaxHealth;
 			}
+		}
+
+		public Health GetHealth() {
+			return _health;
 		}
 
 		private void OnDeath(ushort senderID)

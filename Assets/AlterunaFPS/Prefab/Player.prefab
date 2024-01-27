@@ -2334,8 +2334,8 @@ GameObject:
   - component: {fileID: 4708983315830995147}
   - component: {fileID: 1709546744555315889}
   - component: {fileID: 5337464628717331067}
+  - component: {fileID: 5309467355214464430}
   - component: {fileID: 1709546744555315894}
-  - component: {fileID: 6362814023881812406}
   - component: {fileID: 8601427866244821768}
   - component: {fileID: 8601427866244821769}
   - component: {fileID: 8601427866244821771}
@@ -2412,6 +2412,21 @@ CharacterController:
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.93, z: 0}
+--- !u!114 &5309467355214464430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337464628717331057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550a4b7541e4904448d278b348adfe31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &1709546744555315894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,21 +2442,6 @@ MonoBehaviour:
   IkActive: 1
   RightHandTarget: {fileID: 8601427865917686949}
   LeftHandTarget: {fileID: 8601427865291560305}
---- !u!114 &6362814023881812406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5337464628717331057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 550a4b7541e4904448d278b348adfe31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
 --- !u!114 &8601427866244821768
 MonoBehaviour:
   m_ObjectHideFlags: 0
