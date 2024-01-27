@@ -8,7 +8,7 @@ public class GateTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && GameVariables.keyCount == 0)
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Opening Door");
             doorAnim.ResetTrigger("close");
