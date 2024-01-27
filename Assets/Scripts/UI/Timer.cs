@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour {
 
     private void Start() {
         _state = State.Running;
-        _white = new GUIStyle(EditorStyles.label) {
+        _white = new GUIStyle() {
             fontSize = 32,
             fontStyle = FontStyle.Bold,
         };
