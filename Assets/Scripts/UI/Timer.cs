@@ -1,9 +1,8 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
-    [SerializeField] private float timeRemaining = 180f;
+    [SerializeField] private float timeRemaining = 900f;
 
     public static Timer Instance { get; private set;  }
     

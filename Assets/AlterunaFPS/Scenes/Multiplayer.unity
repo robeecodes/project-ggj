@@ -22084,11 +22084,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1265.75
+      value: 820
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 712
+      value: 461.5
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65348,7 +65348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff69e0ba254751c40babbf735edd39c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 180
+  timeRemaining: 900
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
