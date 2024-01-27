@@ -1,4 +1,3 @@
-using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +7,7 @@ public class Timer : MonoBehaviour {
 
     public static Timer Instance { get; private set;  }
     
-    private GUIStyle white;
+    private GUIStyle _white;
     
     private enum State {
         Running,
@@ -23,11 +22,11 @@ public class Timer : MonoBehaviour {
 
     private void Start() {
         _state = State.Running;
-        white = new GUIStyle(EditorStyles.label) {
+        _white = new GUIStyle(EditorStyles.label) {
             fontSize = 32,
             fontStyle = FontStyle.Bold,
         };
-        white.normal.textColor = Color.white;
+        _white.normal.textColor = Color.white;
     }
 
     private void Update() {
@@ -51,7 +50,7 @@ public class Timer : MonoBehaviour {
             seconds = $"0{seconds}";
         }
         
-        return string.Format("{0:00}:{1:00}", minutes, seconds);
+        return $"{minutes}:{seconds}";
     }
 
     private void OnGUI() {
@@ -61,7 +60,7 @@ public class Timer : MonoBehaviour {
         GUILayout.BeginHorizontal();
         GUILayout.Space(50);
         GUI.contentColor = Color.white;
-        GUILayout.Label(FormatTime(), white);
+        GUILayout.Label(FormatTime(), _white);
         GUILayout.EndHorizontal();
     }
 }
