@@ -19,8 +19,6 @@ public class GlueTrap : Trap
             Cooldown = 5f;
             if (Player != null) {
                 EndEffect();
-                Player = null;
-                IsActive = false;
             }
         }
         
@@ -38,5 +36,7 @@ public class GlueTrap : Trap
     public override void EndEffect() {
         Player.MoveSpeed *= 2f;
         Player.SprintSpeed *= 2f;
+        Player = null;
+        IsActive = false;
     }
 }
