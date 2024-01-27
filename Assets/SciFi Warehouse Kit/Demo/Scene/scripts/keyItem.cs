@@ -14,7 +14,7 @@ public class keyItem : MonoBehaviour
 
     void Start()
     {
-        GameVariables.keyCount = 0;
+       GameVariables.keyCount = 0;
     }
 
  
@@ -22,18 +22,17 @@ public class keyItem : MonoBehaviour
     {
         if (collider.CompareTag("Player"))
         {
-            Debug.Log("Key!");
-            GameVariables.keyCount++;
+            GameVariables.keyCount ++;
             Destroy(gameObject);
             chime.Play();
-
-
+            Debug.Log("Key!");
         }
     }
 
     void Update()
     {
-        keyCounterDisplay.text = "Multi-Nutrients: " + GameVariables.keyCount.ToString();
+        Debug.Log(GameVariables.keyCount);
+        keyCounterDisplay.text = "Panties: " + GameVariables.keyCount ;
     }
 
 }
