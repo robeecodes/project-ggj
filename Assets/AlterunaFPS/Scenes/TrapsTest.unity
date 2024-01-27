@@ -1568,7 +1568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff69e0ba254751c40babbf735edd39c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 10
+  timeRemaining: 180
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
