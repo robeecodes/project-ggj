@@ -27,9 +27,9 @@ public class GlueTrap : Trap
     }
 
     // This effect slows the player down
-    public override void Effect(Player player) {
+    public override void Effect(PlayerController player) {
         IsActive = true;
-        Player = player.GetComponent<PlayerController>();
+        Player = player;
         Player.MoveSpeed /= 2f;
         Player.SprintSpeed /= 2f;
     }

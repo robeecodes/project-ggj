@@ -221,7 +221,6 @@ GameObject:
   - component: {fileID: 2659566035614032980}
   - component: {fileID: 4310751983320380642}
   - component: {fileID: 3614153647899763295}
-  - component: {fileID: 3313398976826544256}
   m_Layer: 0
   m_Name: _BaseTrap
   m_TagString: Untagged
@@ -288,16 +287,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3313398976826544256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4693819875815447760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90327d0620093e43bdcbfc27eb3576b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trap: {fileID: 0}

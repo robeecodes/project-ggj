@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
         if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit raycastHit, .2f, defaultLayerMask)) {
             if (raycastHit.transform.TryGetComponent(out Trap trap)) {
                 if (!trap.GetIsActive()) {
-                    trap.Effect(this);
+                    trap.Effect(this.GetComponent<PlayerController>());
                 }
             }
         }

@@ -7,7 +7,7 @@ public abstract class Trap : MonoBehaviour {
     protected PlayerController Player;
     protected float Cooldown;
     
-    public virtual void Effect(Player player) {}
+    public virtual void Effect(PlayerController player) {}
     public virtual void EndEffect() {}
 
     public bool GetIsActive() {

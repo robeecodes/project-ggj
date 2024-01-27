@@ -12,6 +12,10 @@ namespace AlterunaFPS
 		
 		private Health _health;
 		private int _lastSpawnIndex;
+
+		public Health GetHealth() {
+			return _health;
+		}
 		
 		private void InitializeHealth()
 		{

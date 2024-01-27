@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 09d43ba9b3c0ca84aa21ed0c452597e1
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -749,7 +749,7 @@ PlayerSettings:
   - High
   - Very High
   - Ultra
-  projectName: project-ggj
+  projectName: 
   organizationId: robeecodes
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
