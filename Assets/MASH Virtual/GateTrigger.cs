@@ -5,14 +5,18 @@ using UnityEngine;
 public class GateTrigger : MonoBehaviour
 {
    public Animator doorAnim;
+   public AudioSource gateSound;
+
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             Debug.Log("Opening Door");
+            gateSound.Play();
             doorAnim.ResetTrigger("close");
             doorAnim.SetTrigger("open");
+            
         }
     }
     void OnTriggerExit(Collider other)
@@ -20,6 +24,7 @@ public class GateTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Closing Door");
+            gateSound.Play();
             doorAnim.ResetTrigger("open");
             doorAnim.SetTrigger("close");
         }
