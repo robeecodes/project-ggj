@@ -26,11 +26,10 @@ public class HPBar : MonoBehaviour {
     }
 
     private void Start() {
-            _maxHealth = Avatar.GetComponent<PlayerController>().MaxHealth;
+        _maxHealth = Avatar.GetComponent<PlayerController>().MaxHealth;
     }
 
     private void Update() {
-        _maxHealth = Avatar.GetComponent<PlayerController>().MaxHealth;
         _health = Avatar.GetComponent<PlayerController>().GetHealth().HealthPoints;
 
         hpBar.fillAmount = _health / _maxHealth;
