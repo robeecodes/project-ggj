@@ -2,6 +2,7 @@ using AlterunaFPS;
 using UnityEngine;
 
 public class FOVTrap : Trap {
+    public AudioSource fovSound;
     private float _random;
     
     private void Start() {
@@ -27,6 +28,8 @@ public class FOVTrap : Trap {
         _random = Random.Range(5f, 200f);
         CinemachineVirtualCameraInstance.Instance.SetFov(_random);
         IsActive = true;
+        fovSound.Play();
+
     }
 
     // Reset FOV
