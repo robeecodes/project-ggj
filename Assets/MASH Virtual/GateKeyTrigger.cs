@@ -5,15 +5,12 @@ using UnityEngine;
 public class GateKeyTrigger : MonoBehaviour
 {
    public Animator doorAnim;
-   public AudioSource gateSound;
-
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && GameVariables.keyCount == 7)
         {
             Debug.Log("Opening Door");
-            gateSound.Play();
             doorAnim.ResetTrigger("close");
             doorAnim.SetTrigger("open");
         }
@@ -23,7 +20,6 @@ public class GateKeyTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Closing Door");
-            gateSound.Play();
             doorAnim.ResetTrigger("open");
             doorAnim.SetTrigger("close");
         }
