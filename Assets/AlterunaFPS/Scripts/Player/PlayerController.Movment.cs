@@ -61,6 +61,8 @@ namespace AlterunaFPS
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
+
+		private bool _wasGrounded;
 		
 		private void GroundedCheck()
 		{
@@ -75,6 +77,13 @@ namespace AlterunaFPS
 			{
 				_animator.SetBool(_animIDGrounded, Grounded);
 			}
+
+			if (!_wasGrounded && Grounded) {
+				Debug.Log(this.GetHealth().HealthPoints);
+				this.GetHealth().TakeDamage(0, 1f);
+			}
+
+			_wasGrounded = Grounded;
 		}
 
 		private void Move()
