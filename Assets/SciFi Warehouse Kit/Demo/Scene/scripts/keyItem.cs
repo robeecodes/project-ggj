@@ -26,7 +26,7 @@ public class keyItem : MonoBehaviour
 
     void Update()
     {
-        keyCounterDisplay.text = "Panties: " + GameVariables.keyCount ;
+        keyCounterDisplay.text = "Cosmic gear: " + GameVariables.keyCount ;
     }
 
 }
