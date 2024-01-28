@@ -2292,7 +2292,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1d8ffbb70dc716646abe11dba492a567, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 99db48329db892a4ea8e74595f261ef8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.125
   m_Pitch: 1
@@ -3212,8 +3212,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 45f12d973e1af9b4da3bbef3c6aa88c3, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.743
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9590,7 +9590,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f0ac23ea415e3ba4993a1092be32a421, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -13519,7 +13519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1b8e7d155a1894192d3737423ea698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gateSound: {fileID: 0}
+  gateSound: {fileID: 86088853}
   doorAnim: {fileID: 1984995331}
 --- !u!65 &464731746
 BoxCollider:
@@ -21508,7 +21508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1b8e7d155a1894192d3737423ea698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gateSound: {fileID: 0}
+  gateSound: {fileID: 86088853}
   doorAnim: {fileID: 1336480949}
 --- !u!65 &735495145
 BoxCollider:
@@ -26524,7 +26524,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a43390a1e82305f4bae7f63f1e2e2af7, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -55273,7 +55273,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0b44b9671790dec43a7f9ae5b6cf6b0a, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
