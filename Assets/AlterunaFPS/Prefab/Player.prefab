@@ -2524,6 +2524,7 @@ MonoBehaviour:
   GroundLayers:
     serializedVersion: 2
     m_Bits: 1
+  fallDamage: {fileID: 8300000, guid: 231d89ff5b951394d8b903a66fb2f6ea, type: 3}
 --- !u!114 &8601427866244821769
 MonoBehaviour:
   m_ObjectHideFlags: 0
