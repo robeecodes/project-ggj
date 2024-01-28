@@ -2740,6 +2740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FOVTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 6426678576048659967, guid: da675d33e65ecfe4b88e73a023d1039d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5135,11 +5139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Size.y
-      value: 0.2762756
+      value: 0.3807608
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Center.y
-      value: 0.2381378
+      value: 0.29038042
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_IsTrigger
@@ -5153,6 +5157,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -5160,10 +5168,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4693819875815447760, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 251842699}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
 --- !u!1001 &154452430
 PrefabInstance:
@@ -8040,6 +8045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -8047,10 +8056,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4693819875815447760, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 988908323}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
 --- !u!1001 &238826761
 PrefabInstance:
@@ -8399,24 +8405,6 @@ Transform:
   - {fileID: 940671438}
   m_Father: {fileID: 358185234}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!1 &251842698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4693819875815447760, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
-  m_PrefabInstance: {fileID: 149640348}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &251842699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251842698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca1b8e7d155a1894192d3737423ea698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorAnim: {fileID: 1935402588}
 --- !u!4 &251842702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2659566035614032980, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
@@ -10714,7 +10702,7 @@ Transform:
   - {fileID: 841921268}
   - {fileID: 2043442359}
   - {fileID: 1331855584}
-  m_Father: {fileID: 4103378075938038200}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &360078847
 PrefabInstance:
@@ -10986,6 +10974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlueTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6874021282595142564, guid: 2f3ede3800344974fa49f608a16dcb8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14057,6 +14049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FOVTrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6426678576048659967, guid: da675d33e65ecfe4b88e73a023d1039d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19923,16 +19919,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Size.y
-      value: 0.3635391
+      value: 0.4747547
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Center.y
-      value: 0.28176957
+      value: 0.33737737
       objectReference: {fileID: 0}
     - target: {fileID: 4693819875815447760, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Name
       value: DoorTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -22424,11 +22424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Size.y
-      value: 0.2952446
+      value: 0.4054159
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Center.y
-      value: 0.2476223
+      value: 0.30270797
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_IsTrigger
@@ -22438,6 +22438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -22494,11 +22498,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 993
+      value: 1084
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 558.5
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24591,6 +24595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlueTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6874021282595142564, guid: 2f3ede3800344974fa49f608a16dcb8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26586,7 +26594,7 @@ Transform:
   - {fileID: 1469206575}
   - {fileID: 1999285207}
   - {fileID: 509242374}
-  m_Father: {fileID: 4103378075938038200}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &884338889
 PrefabInstance:
@@ -28664,6 +28672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3695274065793453372, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 4812290394254516923, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6697035
@@ -29738,29 +29750,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &988908320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4693819875815447760, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
-  m_PrefabInstance: {fileID: 236125077}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &988908321 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2659566035614032980, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
   m_PrefabInstance: {fileID: 236125077}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &988908323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 988908320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca1b8e7d155a1894192d3737423ea698, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doorAnim: {fileID: 1935402588}
 --- !u!1001 &990684489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35285,6 +35279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FOVTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6426678576048659967, guid: da675d33e65ecfe4b88e73a023d1039d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36531,6 +36529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlueTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 6874021282595142564, guid: 2f3ede3800344974fa49f608a16dcb8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39812,6 +39814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3695274065793453372, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 4812290394254516923, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6760464
@@ -44851,6 +44857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 3695274065793453372, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 4812290394254516923, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9460404
@@ -46114,6 +46124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3695274065793453372, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 4812290394254516923, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7222654
@@ -49143,6 +49157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -49507,11 +49525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Size.y
-      value: 0.27212086
+      value: 0.4163431
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_Center.y
-      value: 0.23606043
+      value: 0.30817157
       objectReference: {fileID: 0}
     - target: {fileID: 4310751983320380642, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: m_IsTrigger
@@ -49521,6 +49539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -50006,6 +50028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathTrap (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3695274065793453372, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 4812290394254516923, guid: 7f309692958091d44b766d29b2fb7934, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6697035
@@ -56591,6 +56617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FOVTrap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6426678576048659967, guid: da675d33e65ecfe4b88e73a023d1039d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65850,6 +65880,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 816839028834127517, guid: 56553c59a52bf504aaac866c7f4030cd, type: 3}
   m_PrefabInstance: {fileID: 2110073906}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2115913514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2115913518}
+  - component: {fileID: 2115913517}
+  - component: {fileID: 2115913516}
+  - component: {fileID: 2115913515}
+  m_Layer: 0
+  m_Name: Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &2115913515
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115913514}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2115913516
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115913514}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 606e2970e4ba202499f71c5fec3943c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2115913517
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115913514}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2115913518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115913514}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.49999994, y: 0.49999994, z: -0.5, w: 0.5000001}
+  m_LocalPosition: {x: 0.63, y: 4.04, z: 15.106}
+  m_LocalScale: {x: 0.675086, y: 0.31057, z: 0.26597217}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
 --- !u!64 &2121296164
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -66475,6 +66611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTrap
       objectReference: {fileID: 0}
+    - target: {fileID: 6154271717414030291, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5548c5a1272a1b4fa3da4fcd901a258, type: 2}
     - target: {fileID: 6686455311559282415, guid: 8e5da141601adc543942be7125d9cdfa, type: 3}
       propertyPath: doorAnim
       value: 
@@ -67079,9 +67219,6 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 358185234}
-    - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 661145766}
     - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
       insertIndex: -1
@@ -67095,9 +67232,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1319516374}
-    - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 884061314}
     - targetCorrespondingSourceObject: {fileID: 4103378077160603626, guid: 8ae8ed010fa75f44ca00084dd964ceea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1499168434}
@@ -67257,6 +67391,9 @@ SceneRoots:
   - {fileID: 897290172}
   - {fileID: 4103378075938038199}
   - {fileID: 8944336656349189700}
+  - {fileID: 358185234}
+  - {fileID: 2115913518}
+  - {fileID: 884061314}
   - {fileID: 838869647974338825}
   - {fileID: 1791383854}
   - {fileID: 1006881271}
