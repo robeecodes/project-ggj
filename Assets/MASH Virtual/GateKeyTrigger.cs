@@ -9,7 +9,7 @@ public class GateKeyTrigger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && GameVariables.keyCount == 0)
+        if (other.CompareTag("Player") && GameVariables.keyCount == 7)
         {
             //Debug.Log("Opening Door");
             gateSound.Play();
