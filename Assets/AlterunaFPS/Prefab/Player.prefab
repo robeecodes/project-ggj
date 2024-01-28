@@ -2617,6 +2617,9 @@ MonoBehaviour:
   CameraAngleOverride: 0
   LockCameraPosition: 0
   FirstPersonCameraRotationSmoothing: 0.3
+  gunDeath:
+  - {fileID: 8300000, guid: 8b8bd8918a36a404ca5feefb3e3d96ce, type: 3}
+  - {fileID: 8300000, guid: 0fd9df8a2c031274c8f662c9c824e35c, type: 3}
   GunRoot: {fileID: 8601427864537486362}
   FirePoint: {fileID: 8601427865155832438}
   IKController: {fileID: 1709546744555315894}
