@@ -4,6 +4,7 @@ using UnityEngine;
 // Trap halves the speed of the player for the specified cooldown time.
 public class GlueTrap : Trap
 {
+    public AudioSource glueSound;
     private void Start() {
         // Cooldown is 5s
         Cooldown = 5f;
@@ -27,6 +28,7 @@ public class GlueTrap : Trap
     // This effect slows the player down
     public override void Effect(PlayerController player) {
         IsActive = true;
+        glueSound.Play();
         Player = player;
         Player.MoveSpeed /= 2f;
         Player.SprintSpeed /= 2f;

@@ -1,10 +1,12 @@
 ﻿using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace AlterunaFPS
 {
-	public partial class PlayerController
-	{
+	public partial class PlayerController {
+
+		[SerializeField] private AudioClip[] gunDeath;
 		
 		[Header("Gun")]
 		public Transform GunRoot;
@@ -153,6 +155,12 @@ namespace AlterunaFPS
 						// fragmentation damage
 						target.TakeDamage(senderID, Mathf.Min(2 * currentPenetration / penetration, 1f) * damage * distanceDamageDropoff);
 						hitDistance = hits[i].distance;
+
+						if (target.HealthPoints <= 0f ) {
+							int soundNum = Random.Range(0, gunDeath.Length);
+							var gunSound = gunDeath[soundNum];
+							AudioSource.PlayClipAtPoint(gunSound, transform.TransformPoint(_controller.center));
+						}
 						
 						// If penetration is not enough to go through the target, stop the bullet
 						break;
