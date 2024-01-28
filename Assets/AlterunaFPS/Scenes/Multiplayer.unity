@@ -22494,27 +22494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.x
-<<<<<<< HEAD
-<<<<<<< HEAD
-      value: 1226
-      objectReference: {fileID: 0}
-    - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 607
-=======
       value: 993
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_SizeDelta.y
       value: 558.5
->>>>>>> 9fd5a7cdf0450eb4efee91f76381435bbce5ba57
-=======
-      value: 1034
-      objectReference: {fileID: 0}
-    - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 657
->>>>>>> parent of 4982c21 (Traps sound)
       objectReference: {fileID: 0}
     - target: {fileID: 4996443576612784561, guid: fe6e9076610e5904283d9fe4935a4854, type: 3}
       propertyPath: m_LocalPosition.x
