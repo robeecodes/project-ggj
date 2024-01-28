@@ -43,6 +43,6 @@ Compatible with Windows
 
 ## Authors
 
-- Anderson Irawan
-- Rey Jassasi
-- Robin King
+- [Anderson Irawan](https://github.com/AndersonIrawan)
+- [Rahil Jassasi](https://github.com/R-Jassasi)
+- [Robin King](https://github.com/robeecodes)
