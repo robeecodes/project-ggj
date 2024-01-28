@@ -67,6 +67,8 @@ namespace AlterunaFPS {
         private float _startOfFall;
         private float _minimumFall = 2f;
 
+        [SerializeField] private AudioClip fallDamage;
+
         private void GroundedCheck() {
             // set sphere position, with offset
             var position = transform.position;
@@ -86,6 +88,7 @@ namespace AlterunaFPS {
                 if (_startOfFall - transform.position.y > _minimumFall) {
                     this.GetHealth().TakeDamage(0, 1f);
                     Debug.Log(this.GetHealth().HealthPoints);
+                    AudioSource.PlayClipAtPoint(fallDamage, transform.TransformPoint(_controller.center));
                 }
             }
 
